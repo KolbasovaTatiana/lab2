@@ -7,6 +7,7 @@ double long dv_fact(double long n) {
     }
     return n * dv_fact(n - 2);    
 }
+
 long double t(long double x) {
    long double chisl = 0, znam = 0;
    int k = 0;
